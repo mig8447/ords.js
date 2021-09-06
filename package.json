@@ -1,0 +1,29 @@
+{
+  "name": "ords",
+  "version": "1.0.0",
+  "description": "An SDK to use ORDS-build APIs",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "snowpack build --clean --verbose",
+    "dev": "snowpack dev --verbose",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mig8447/ords.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mig8447/ords.js/issues"
+  },
+  "homepage": "https://github.com/mig8447/ords.js#readme",
+  "devDependencies": {
+    "@esm-bundle/chai": "^4.3.4-fix.0",
+    "@web/test-runner": "^0.13.17",
+    "@web/test-runner-mocha": "^0.7.4",
+    "eslint": "^7.32.0",
+    "snowpack": "^3.8.8"
+  }
+}
